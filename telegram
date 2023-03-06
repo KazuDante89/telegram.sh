@@ -31,6 +31,7 @@ DISABLE_WEB_PAGE_PREVIEW=false
 DISABLE_NOTIFICATION=false
 
 URL="https://api.telegram.org/bot"
+export HTTPS_PROXY="socks5://127.0.0.1:1234"
 FILE_URL="https://api.telegram.org/file/bot"
 CURL_OPTIONS="-s"
 
